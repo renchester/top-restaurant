@@ -7,7 +7,7 @@ export default function displayMenu(e) {
   
      <div class="nav-bar">
         <div class="coco-logo">
-          <img src="../img/coco-logo.png" alt="Coco Ichibanya Logo" />
+          <img src="/img/coco-logo.png" alt="Coco Ichibanya Logo" />
           <p class="coco-logo-name">CURRY HOUSE CoCo ICHIBANYA</p>
         </div>
         <div class="nav-links">
@@ -29,42 +29,42 @@ export default function displayMenu(e) {
         </div>
         <div class="menu-container">
           <div class="menu-item meat">
-            <img src="../img/coco-curry-meat.png" alt="Meat Menu" />
+            <img src="/img/coco-curry-meat.png" alt="Meat Menu" />
             <div class="menu-label">
               <div class="menu-plus-circle"></div>
               Meat Menu
             </div>
           </div>
           <div class="menu-item seafood">
-            <img src="../img/coco-curry-seafood.png" alt="Seafood Menu" />
+            <img src="/img/coco-curry-seafood.png" alt="Seafood Menu" />
             <div class="menu-label">
               <div class="menu-plus-circle"></div>
               Seafood Menu
             </div>
           </div>
           <div class="menu-item vegetable">
-            <img src="../img/coco-curry-vegetable.png" alt="Vegetable Menu" />
+            <img src="/img/coco-curry-vegetable.png" alt="Vegetable Menu" />
             <div class="menu-label">
               <div class="menu-plus-circle"></div>
               Vegetable Menu
             </div>
           </div>
           <div class="menu-item other">
-            <img src="../img/coco-curry-other.png" alt="Other Dishes" />
+            <img src="/img/coco-curry-other.png" alt="Other Dishes" />
             <div class="menu-label">
               <div class="menu-plus-circle"></div>
               Other Dishes
             </div>
           </div>
           <div class="menu-item kids">
-            <img src="../img/coco-curry-kids.png" alt="Kid's Menu" />
+            <img src="/img/coco-curry-kids.png" alt="Kid's Menu" />
             <div class="menu-label">
               <div class="menu-plus-circle"></div>
               Kid's Menu
             </div>
           </div>
           <div class="menu-item sides">
-            <img src="../img/coco-curry-sides.png" alt="Sides Menu" />
+            <img src="/img/coco-curry-sides.png" alt="Sides Menu" />
             <div class="menu-label">
               <div class="menu-plus-circle"></div>
               Sides Menu
@@ -77,7 +77,7 @@ export default function displayMenu(e) {
         <p class="head-label shops-label">About the shops</p>
         <div class="shops-links">
           <div class="shops-link lead">
-            <img src="../img/coco-shop-small.png" alt="CoCo Ichibanya Store" />
+            <img src="/img/coco-shop-small.png" alt="CoCo Ichibanya Store" />
             CoCo ICHIBANYA, a specialty shop for curry rice in Japan.
           </div>
           <div class="shops-link others">See overseas shops here</div>
