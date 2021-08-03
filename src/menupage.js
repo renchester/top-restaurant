@@ -91,7 +91,7 @@ export default function displayMenu(e) {
     <footer>
       <p class="footer-main">CURRY HOUSE CoCo ICHIBANYA (Japanese)</p>
       <p class="footer-cp">
-        CURRY HOUSE CoCo ICHIBANYA (Japanese) Copyright ©ICHIBANYA CO., LTD. All
+         Copyright ©ICHIBANYA CO., LTD. All
         rights reserved
       </p>
     </footer>
