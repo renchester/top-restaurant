@@ -278,18 +278,82 @@ MENU PAGE
   height: 100%;
 }
 
-/* .menu-plus-circle::before {
-  content: '+';
-  color: white;
-  font-family: sans-serif;
-  font-weight: 1200;
-  position: absolute;
-  left: 17.5%;
-  top: 5%;
-} */
-
 /*  HELPERS */
 
 .hidden {
   display: none;
+}
+
+/*  MEDIA QUERIES */
+
+@media (max-width: 680px) {
+  .head-label {
+    font-size: 2rem;
+  }
+
+  .nav-links,
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-bar {
+    padding: 2rem 0 1rem;
+  }
+
+  .nav-link {
+    margin: 0;
+    text-align: center;
+  }
+
+  .coco-logo {
+    padding: 0;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+
+  .coco-logo img {
+    width: 70%;
+  }
+
+  .content-wrapper {
+    padding: 0 20px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-bg {
+    transform: scale(0.35);
+    top: -280px;
+    right: -360px;
+  }
+
+  .header-logo img {
+    width: 33%;
+  }
+
+  .header-info.established {
+    font-size: 1.4rem;
+  }
+
+  .header-info.history {
+    font-size: 0.7rem;
+    padding-left: 0;
+    width: 66%;
+  }
+
+  .about-info.main {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 0;
+  }
+
+  .about-info.history {
+    font-size: 1rem;
+  }
 }
