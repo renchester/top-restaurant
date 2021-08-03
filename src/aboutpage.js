@@ -7,7 +7,7 @@ export default function displayAbout(e) {
   
      <div class="nav-bar">
         <div class="coco-logo">
-          <img src="/img/coco-logo.png" alt="Coco Ichibanya Logo" />
+          <img src="img/coco-logo.png" alt="Coco Ichibanya Logo" />
           <p class="coco-logo-name">CURRY HOUSE CoCo ICHIBANYA</p>
         </div>
         <div class="nav-links">
@@ -40,7 +40,7 @@ export default function displayAbout(e) {
         <p class="head-label shops-label">About the shops</p>
         <div class="shops-links">
           <div class="shops-link lead">
-            <img src="/img/coco-shop-small.png" alt="CoCo Ichibanya Store" />
+            <img src="img/coco-shop-small.png" alt="CoCo Ichibanya Store" />
             CoCo ICHIBANYA, a specialty shop for curry rice in Japan.
           </div>
           <div class="shops-link others">See overseas shops here</div>
