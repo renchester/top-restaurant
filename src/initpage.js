@@ -5,7 +5,7 @@ export default function initPage(e) {
   
       <div class="nav-bar">
         <div class="coco-logo">
-          <img src="../img/coco-logo.png" alt="Coco Ichibanya Logo" />
+          <img src="/img/coco-logo.png" alt="Coco Ichibanya Logo" />
           <p class="coco-logo-name">CURRY HOUSE CoCo ICHIBANYA</p>
         </div>
         <div class="nav-links">
@@ -19,7 +19,7 @@ export default function initPage(e) {
       <main class="header">
         <div class="header-logo">
           <img
-            src="../img/coco-logo-circle.png"
+            src="/img/coco-logo-circle.png"
             alt="Coco Ichibanya Logo - Circle"
           />
         </div>
@@ -38,7 +38,7 @@ export default function initPage(e) {
           </p>
         </div>
         <div class="header-bg">
-          <img src="../img/coco-header-bg.png" alt="CoCo Curry" />
+          <img src="/img/coco-header-bg.png" alt="CoCo Curry" />
         </div>
       </main>
 
@@ -46,7 +46,7 @@ export default function initPage(e) {
         <p class="head-label shops-label">About the shops</p>
         <div class="shops-links">
           <div class="shops-link lead">
-            <img src="../img/coco-shop-small.png" alt="CoCo Ichibanya Store" />
+            <img src="/img/coco-shop-small.png" alt="CoCo Ichibanya Store" />
             CoCo ICHIBANYA, a specialty shop for curry rice in Japan.
           </div>
           <div class="shops-link others">See overseas shops here</div>
