@@ -1,7 +1,7 @@
 'use strict';
 
 export default function displayMenu(e) {
-  if (e.target !== document.querySelector('.nav-link.menu')) return;
+  if (e.target !== document.querySelector('.nav-link.link-menu')) return;
 
   document.querySelector('#content').innerHTML = `
   

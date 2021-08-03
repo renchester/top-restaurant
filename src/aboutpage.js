@@ -1,7 +1,7 @@
 'use strict';
 
 export default function displayAbout(e) {
-  if (e.target !== document.querySelector('.nav-link.about')) return;
+  if (e.target !== document.querySelector('.nav-link.link-about')) return;
 
   document.querySelector('#content').innerHTML = `
   

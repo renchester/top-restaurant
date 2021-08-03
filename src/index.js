@@ -17,6 +17,6 @@ const container = document.getElementById('content');
 
 // window.addEventListener('load', displayHome);
 
-// window.addEventListener('click', displayHome);
+window.addEventListener('click', displayHome);
 window.addEventListener('click', displayMenu);
 window.addEventListener('click', displayAbout);

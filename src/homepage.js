@@ -1,6 +1,8 @@
 'use strict';
 
 export default function displayHome(e) {
+  if (e.target !== document.querySelector('.nav-link.link-home')) return;
+
   document.querySelector('#content').innerHTML = `
   
       <div class="nav-bar">
