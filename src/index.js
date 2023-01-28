@@ -1,19 +1,11 @@
-'use strict';
+import displayHome from './displayHome';
 
-// Imports
+const controller = (function () {
+  function addEvents() {}
 
-import initPage from './initpage';
-import displayHome from './homepage';
-import displayAbout from './aboutpage';
-import displayMenu from './menupage';
+  return {
+    addEvents,
+  };
+})();
 
-// DOM Selectors
-
-const container = document.getElementById('content');
-
-// Event Listeners
-
-window.addEventListener('load', initPage);
-window.addEventListener('click', displayHome);
-window.addEventListener('click', displayMenu);
-window.addEventListener('click', displayAbout);
+displayHome.renderHome();
