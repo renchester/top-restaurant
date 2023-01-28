@@ -25,7 +25,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _displayHome__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./displayHome */ \"./src/displayHome.js\");\n\n\n_displayHome__WEBPACK_IMPORTED_MODULE_0__[\"default\"].renderHome();\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _displayHome__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./displayHome */ \"./src/displayHome.js\");\n\n\nconst controller = (function () {\n  function addEvents() {}\n\n  return {\n    addEvents,\n  };\n})();\n\n_displayHome__WEBPACK_IMPORTED_MODULE_0__[\"default\"].renderHome();\n\n\n//# sourceURL=webpack://top-restaurant/./src/index.js?");
 
 /***/ })
 
