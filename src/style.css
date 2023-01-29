@@ -12,6 +12,7 @@
 
 :root {
   --bar-padding: 30px;
+  --accent-color: rgb(78, 61, 42);
 }
 
 #content {
@@ -43,8 +44,9 @@ header {
 }
 
 .logo-text {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
+  font-family: 'Noto Serif JP', Arial, Helvetica, sans-serif, monospace;
 }
 
 .header-img {
@@ -54,6 +56,8 @@ header {
 
 .header-title {
   font-size: 1.4rem;
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif, monospace;
+  font-weight: 700;
 }
 
 .nav-links {
@@ -68,6 +72,7 @@ header {
   padding: 0px 10px;
   cursor: pointer;
   font-size: 1.05rem;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 /* HOME PAGE */
@@ -85,6 +90,7 @@ section {
   margin: 50px 0;
   position: relative;
   height: clamp(200px, 50vh, 400px);
+  color: var(--accent-color);
 }
 
 .history-background-img {
@@ -97,14 +103,16 @@ section {
 }
 
 .history-title {
-  font-size: 2.5rem;
   margin-bottom: 15px;
-  width: clamp(50px, 25%, 400px);
+  width: clamp(50px, 30%, 400px);
+  font-size: clamp(1.75rem, 0.8333rem + 2.6667vw, 2.5rem);
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
 .history-desc {
-  font-size: 0.9rem;
   width: clamp(100px, 50%, 500px);
+  font-size: 0.9rem;
+  font-family: 'Noto Sans', 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
 /* ABOUT PAGE */
@@ -131,7 +139,7 @@ section {
   height: 100%;
   width: 100%;
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.58;
   z-index: -1;
 }
 
@@ -145,23 +153,26 @@ section {
   bottom: 0;
   margin-right: 10px;
   margin-bottom: 10px;
-  color: white;
-  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.6rem;
+  font-style: italic;
 }
 
 .about-title,
 .about-desc {
   display: block;
-  color: white;
   padding: 0 35px;
+  color: white;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 .about-title {
-  font-size: 2.1rem;
+  font-size: clamp(1.3rem, 0.534rem + 2.7234vw, 2.1rem);
   margin-top: 25px;
 }
 
 .about-desc {
+  font-size: clamp(1rem, 0.9043rem + 0.3404vw, 1.1rem);
 }
 
 /* MENU PAGE */
@@ -171,9 +182,15 @@ section {
 }
 
 .menu-header-title {
+  margin-bottom: 8px;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 8px;
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  color: var(--accent-color);
+}
+
+.menu-desc {
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 .menu-grid {
@@ -190,6 +207,11 @@ section {
   margin-bottom: 25px;
 }
 
+.menu-item:hover {
+  color: brown;
+  transform: scale(1.03);
+}
+
 .menu-img {
   width: clamp(100px, 100%, 350px);
   margin-bottom: 10px;
@@ -197,6 +219,7 @@ section {
 
 .menu-title {
   font-weight: 600;
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
 /* ABOUT SUBSECTION */
@@ -207,14 +230,16 @@ section {
 
 .section-title {
   display: block;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+  color: var(--accent-color);
 }
 
 .about--grid {
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     'one two'
@@ -223,9 +248,15 @@ section {
 }
 
 .about--grid > * {
-  border: 1px solid rgb(83, 40, 40);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   padding: 20px;
+}
+
+.about--grid > *:hover {
+  transform: scale(1.01);
 }
 
 .about--grid-item-1,
@@ -233,6 +264,7 @@ section {
 .about--grid-item-3 {
   display: flex;
   align-items: center;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 .about--grid-item-1 {
@@ -240,7 +272,10 @@ section {
 }
 
 .grid-item-1--img {
+  display: flex;
+  flex-direction: column;
   margin-right: 10px;
+  width: fit-content;
 }
 
 .grid-item-1--img img {
@@ -251,9 +286,17 @@ section {
 .grid-item-1--img a,
 .grid-item-1--img a:link,
 .grid-item-1--img a:visited {
-  font-size: 0.8rem;
+  font-size: clamp(0.5rem, -0.069rem + 1.6552vw, 0.8rem);
+  font-style: italic;
   text-decoration: none;
   color: rgb(105, 64, 16);
+  width: fit-content;
+  margin-top: 5px;
+}
+
+.grid-item-1--text {
+  width: fit-content;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
 }
 
 .about--grid-item-2 {
@@ -267,17 +310,24 @@ section {
 /* FOOTER STYLES */
 
 footer {
-  /* position: absolute;
-  bottom: 0%; */
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 7px;
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 20px var(--bar-padding);
   background-color: rgb(85, 45, 10);
   color: rgb(200, 200, 200);
   font-size: 0.9rem;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif, monospace;
+}
+
+.footer-title {
+  font-weight: 600;
+}
+
+.footer-copyright {
+  font-size: 0.8rem;
 }
 
 .footer-links {
@@ -287,6 +337,8 @@ footer {
 
 .footer-link {
   margin-right: 30px;
+  font-size: 0.8rem;
+  cursor: default;
 }
 
 .footer-dev {
@@ -300,7 +352,47 @@ footer {
 .footer-link--github:link,
 .footer-link--github:visited {
   text-decoration: none;
-  color: rgb(252, 252, 252);
+  color: rgba(252, 252, 252, 0.85);
   vertical-align: center;
   font-size: 0.8rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header-logo {
+    gap: 10px;
+  }
+
+  .logo-wrapper {
+    justify-content: center;
+  }
+
+  .nav-bar,
+  .nav-links {
+    width: 100%;
+    display: flex;
+  }
+
+  .nav-bar {
+    justify-content: center;
+  }
+
+  .nav-links {
+    justify-content: space-evenly;
+  }
+
+  .about--grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2.5fr 1fr;
+    grid-template-areas:
+      'one one'
+      'two three';
+  }
 }
