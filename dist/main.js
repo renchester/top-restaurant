@@ -155,7 +155,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0e379710792114ccb5f7.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-kids.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-dish-kids19016cb0226c5d0d75e9.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-kids.png?");
 
 /***/ }),
 
@@ -165,7 +165,7 @@ eval("module.exports = __webpack_require__.p + \"0e379710792114ccb5f7.png\";\n\n
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"5e2fbe5b180c3f2f8493.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-meat.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-dish-meatfdf009fc60ce199e4010.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-meat.png?");
 
 /***/ }),
 
@@ -175,7 +175,7 @@ eval("module.exports = __webpack_require__.p + \"5e2fbe5b180c3f2f8493.png\";\n\n
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"a412553775dafeed3a4b.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-other.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-dish-other6ba6390cb6f94d226f73.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-other.png?");
 
 /***/ }),
 
@@ -185,7 +185,7 @@ eval("module.exports = __webpack_require__.p + \"a412553775dafeed3a4b.png\";\n\n
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"cf574af8f000113da067.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-seafood.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-dish-seafoodc2a3d032888c27eb008c.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-seafood.png?");
 
 /***/ }),
 
@@ -195,7 +195,7 @@ eval("module.exports = __webpack_require__.p + \"cf574af8f000113da067.png\";\n\n
   \**************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"93caed97607e61be6102.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-sides.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-dish-sides73887f7d3eb77aa78a87.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-sides.png?");
 
 /***/ }),
 
@@ -205,7 +205,7 @@ eval("module.exports = __webpack_require__.p + \"93caed97607e61be6102.png\";\n\n
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"93326af061188119c286.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-vegetable.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-dish-vegetablef3083d16cbdc67075286.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-dish-vegetable.png?");
 
 /***/ }),
 
@@ -215,7 +215,7 @@ eval("module.exports = __webpack_require__.p + \"93326af061188119c286.png\";\n\n
   \********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7781eafdfc24db5984e1.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-logo.png?");
+eval("module.exports = __webpack_require__.p + \"img/curry-logodbbd0cdab7f7ca438bd3.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/curry-logo.png?");
 
 /***/ }),
 
@@ -225,7 +225,7 @@ eval("module.exports = __webpack_require__.p + \"7781eafdfc24db5984e1.png\";\n\n
   \*********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ff8c08a02f9eae102408.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/github-icon.png?");
+eval("module.exports = __webpack_require__.p + \"img/github-icon4a94dad1efa073cae8ff.png\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/github-icon.png?");
 
 /***/ }),
 
@@ -235,7 +235,7 @@ eval("module.exports = __webpack_require__.p + \"ff8c08a02f9eae102408.png\";\n\n
   \***************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7034c8c339789143472d.jpeg\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/shop-ceiling-maricar-limjoco.jpeg?");
+eval("module.exports = __webpack_require__.p + \"img/shop-ceiling-maricar-limjocoaf9cf7b6ae28eb9937bd.jpeg\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/shop-ceiling-maricar-limjoco.jpeg?");
 
 /***/ }),
 
@@ -245,7 +245,7 @@ eval("module.exports = __webpack_require__.p + \"7034c8c339789143472d.jpeg\";\n\
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"5cfc2c8cc47a995c1d34.jpeg\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/shop-front-julie-fader.jpeg?");
+eval("module.exports = __webpack_require__.p + \"img/shop-front-julie-faderd51c20fe7cbb2519b3fa.jpeg\";\n\n//# sourceURL=webpack://top-restaurant/./src/img/shop-front-julie-fader.jpeg?");
 
 /***/ })
 
