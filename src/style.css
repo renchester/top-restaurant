@@ -99,7 +99,7 @@ section {
   width: clamp(100px, 110%, 700px);
   right: -10%;
   bottom: 0;
-  opacity: 0.85;
+  opacity: 0.65;
 }
 
 .history-title {
@@ -111,7 +111,7 @@ section {
 
 .history-desc {
   width: clamp(100px, 50%, 500px);
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 0.5895rem + 0.8421vw, 0.9rem);
   font-family: 'Noto Sans', 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
@@ -394,5 +394,15 @@ footer {
     grid-template-areas:
       'one one'
       'two three';
+  }
+}
+
+@media (max-width: 450px) {
+  .history-desc {
+    width: clamp(50px, 60%, 300px);
+  }
+
+  .history img {
+    opacity: 0.4;
   }
 }
