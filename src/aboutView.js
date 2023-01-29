@@ -1,4 +1,3 @@
-import View from '.';
 import backgroundImg from './img/shop-ceiling-maricar-limjoco.jpeg';
 
 const aboutView = (function () {

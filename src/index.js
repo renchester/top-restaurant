@@ -9,6 +9,10 @@ import './style.css';
 const View = (function () {
   const container = document.querySelector('#content');
 
+  function clearAll() {
+    container.innerHTML = '';
+  }
+
   function renderHeader() {
     const headerEl = document.createElement('header');
 
@@ -45,7 +49,7 @@ const View = (function () {
               Julie Fader on Unsplash</a>
             </caption>
           </div>
-          <span class="grid-item-1--text">KARI HOUSE Manila, the best curry house in the Philippines</span>
+          <div class="grid-item-1--text">KARI HOUSE Manila, the best curry house in the Philippines</div>
          
         </div>
         <div class="about--grid-item-2">See overseas shops here</div>
@@ -62,7 +66,7 @@ const View = (function () {
       <div class="footer-main">
         <p class="footer-title">KARI HOUSE Manila</p>
         <p class="footer-copyright">
-          Copyright ©KARI HOUSE CO., LTD. All rights reserved
+          Copyright ©KARI HOUSE CO., LTD. For presentation purposes only.
         </p>
       </div>
       <ul class="footer-links">
@@ -81,21 +85,6 @@ const View = (function () {
       `;
 
     return footerEl;
-  }
-
-  function renderPage(page) {
-    clearAll();
-
-    container.appendChild(renderHeader());
-    container.appendChild(page);
-    container.appendChild(renderSection());
-    container.appendChild(renderFooter());
-
-    addEvents();
-  }
-
-  function clearAll() {
-    container.innerHTML = '';
   }
 
   function addEvents() {
@@ -118,10 +107,19 @@ const View = (function () {
       );
   }
 
+  function renderPage(page) {
+    clearAll();
+
+    container.appendChild(renderHeader());
+    container.appendChild(page);
+    container.appendChild(renderSection());
+    container.appendChild(renderFooter());
+
+    addEvents();
+  }
+
   function init() {
     renderPage(homeView.renderHomeContent());
-    // renderPage(aboutView.renderAboutContent());
-    // renderPage(menuView.renderMenuContent());
   }
 
   return {
