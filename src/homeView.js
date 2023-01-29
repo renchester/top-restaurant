@@ -1,12 +1,16 @@
-const displayHome = (function () {
+import plateImg from './img/curry-dish-meat.png';
+
+const homeView = (function () {
   function renderHomeContent() {
     const homeContent = document.createElement('div');
+    homeContent.classList.add('home-section');
     homeContent.classList.add('content-wrapper');
 
     homeContent.innerHTML = `
     <main>
       <div class="history">
-        <strong class="history-title">Established in 2023</strong>
+        <img src="${plateImg}" alt="Background image" class="history-background-img"/>
+        <strong class="history-title">Established in 1999</strong>
         <p class="history-desc">
           "KARI HOUSE Manila", known as "KARIMAN", is a chain restaurant
           specializing in Japanese-style curry rice. Many people enjoy making
@@ -16,17 +20,7 @@ const displayHome = (function () {
           people!
         </p>
       </div>
-    </main>
-
-    <section>
-      <div class="about--grid">
-        <div class="about--grid-item-1">
-          KARI HOUSE Manila, the best curry house in the Philippines
-        </div>
-        <div class="about--grid-item-2">See overseas shops here</div>
-        <div class="about--grid-item-3">Company Information</div>
-      </div>
-    </section>`;
+    </main>`;
 
     return homeContent;
   }
@@ -34,4 +28,4 @@ const displayHome = (function () {
   return { renderHomeContent };
 })();
 
-export default displayHome;
+export default homeView;

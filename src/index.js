@@ -1,9 +1,12 @@
-import displayHome from './displayHome';
+import homeView from './homeView';
+import aboutView from './aboutView';
+import menuView from './menuView';
+import shopFrontImg from './img/shop-front-julie-fader.jpeg';
 import logo from './img/curry-logo.png';
 import githubIcon from './img/github-icon.png';
 import './style.css';
 
-const displayController = (function () {
+const View = (function () {
   const container = document.querySelector('#content');
 
   function renderHeader() {
@@ -26,6 +29,30 @@ const displayController = (function () {
       </nav>`;
 
     return headerEl;
+  }
+
+  function renderSection() {
+    const sectionEl = document.createElement('section');
+
+    sectionEl.innerHTML = `
+      <span class="section-title">About the shops</span>
+      <div class="about--grid">
+        <div class="about--grid-item-1">
+          <div class="grid-item-1--img">
+            <img src="${shopFrontImg}" alt="Shop front by Julie Fader"/>
+            <caption class="shop-front-caption">
+              <a href="https://unsplash.com/@jlfader" target="_blank">
+              Julie Fader on Unsplash</a>
+            </caption>
+          </div>
+          <span class="grid-item-1--text">KARI HOUSE Manila, the best curry house in the Philippines</span>
+         
+        </div>
+        <div class="about--grid-item-2">See overseas shops here</div>
+        <div class="about--grid-item-3">Company Information</div>
+      </div>`;
+
+    return sectionEl;
   }
 
   function renderFooter() {
@@ -59,10 +86,9 @@ const displayController = (function () {
   function renderPage(page) {
     clearAll();
 
-    console.log(page);
-
     container.appendChild(renderHeader());
     container.appendChild(page);
+    container.appendChild(renderSection());
     container.appendChild(renderFooter());
 
     addEvents();
@@ -76,15 +102,37 @@ const displayController = (function () {
     document
       .querySelector('.nav-link.link--home')
       .addEventListener('click', () =>
-        renderPage(displayHome.renderHomeContent()),
+        renderPage(homeView.renderHomeContent()),
+      );
+
+    document
+      .querySelector('.nav-link.link--about')
+      .addEventListener('click', () =>
+        renderPage(aboutView.renderAboutContent()),
+      );
+
+    document
+      .querySelector('.nav-link.link--menu')
+      .addEventListener('click', () =>
+        renderPage(menuView.renderMenuContent()),
       );
   }
 
+  function init() {
+    renderPage(homeView.renderHomeContent());
+    // renderPage(aboutView.renderAboutContent());
+    // renderPage(menuView.renderMenuContent());
+  }
+
   return {
-    renderPage,
+    renderHeader,
+    renderFooter,
+    addEvents,
+    clearAll,
+    init,
   };
 })();
 
-const divEx = document.createElement('div');
+View.init();
 
-displayController.renderPage(divEx);
+export default View;
